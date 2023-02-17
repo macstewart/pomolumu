@@ -2,11 +2,13 @@
 
 A simple cli pomodoro timer
 
+![run](./assets/demo.gif)
+
 ## Behaviour
 - Starts a focus timer with the desired number of minutes
 - After the timer has expired, a "break" will begin automatically
     - The breaks times follow the pattern 5m -> 5m -> 5m -> 15m, ad infinitum
-- After the break, the next focus timer will queue up and pause until started. Press `<space>` to resume
+- After the break, the next focus timer will queue up and pause until started
 
 ### Building
 ```
@@ -27,4 +29,5 @@ For global usage, move or link the resulting executable to a folder in your PATH
 - `r` to reset the timer back to its initial value
 - `q` to exit
 
-![run](./assets/.gif)
+
+
