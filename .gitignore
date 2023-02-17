@@ -1,0 +1,6 @@
+pomolumu
+
+.DS_Storeo
+
+.*
+!.gitignore
